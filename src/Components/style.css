@@ -1,0 +1,33 @@
+#mainContainer {
+  margin: auto;
+  padding: 15px solid;
+  text-align: center;
+}
+
+#restContainer {
+  /* border: 2px solid ; */
+  border-radius: 2px;
+}
+
+#restContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+#card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+#red {
+  padding: 1rem;
+  background-color: red;
+  border-radius: 2px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+}
